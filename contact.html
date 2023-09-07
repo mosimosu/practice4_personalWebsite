@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="zh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Mosi Su" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="discription"
+      content="This is Mosi's personal webtsite. One is a front-end webtsite developer from Taiwan."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&display=swap"
+      rel="stylesheet"
+    />
+    <title>我的履歷 | Mosi</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/animation.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="./index.html">首頁</a></li>
+          <li><a href="./resume.html">我的履歷</a></li>
+          <li><a href="contact.html" class="active">聯絡方式</a></li>
+          <li>
+            <a href="https://mosimosu.github.io/practice1_hawaii"
+              >Hawaii Practice</a
+            >
+          </li>
+          <li>
+            <a href="https://mosimosu.github.io/practice2_todoList"
+              >Todo List practice</a
+            >
+          </li>
+          <li>
+            <a href="https://mosimosu.github.io/practice3_websitePlayer"
+              >Web Music Player practice</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="form">
+        <form>
+          <div>
+            <label for="name">姓名:</label>
+            <input type="text" name="name" />
+          </div>
+
+          <div>
+            <label for="email">郵件:</label>
+            <input type="email" name="email" />
+          </div>
+
+          <div>
+            <label for="phone">電話:</label>
+            <input type="text" name="phone" />
+          </div>
+
+          <div>
+            <label for="need">需求</label>
+            <textarea name="need" id="need" cols="30" rows="10"></textarea>
+          </div>
+          <button type="submit">送出表單</button>
+        </form>
+      </section>
+      <div class="line"></div>
+      <section class="contact">
+        <div class="contact">
+          <h2>我的電話：09xx-xxx-xxx</h2>
+          <h2>我的email：xxxx@fakemail.co.jp</h2>
+          <h2>其它聯絡方式：Facebook, Instagram</h2>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a href="#"
+        ><div><img src="./Icons/facebook.svg" alt="" /></div
+      ></a>
+      <a href="#"
+        ><div><img src="./Icons/instagram.svg" alt="" /></div
+      ></a>
+      <a href="#"
+        ><div><img src="./Icons/github-brands 1.svg" alt="" /></div
+      ></a>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
